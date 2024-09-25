@@ -279,12 +279,12 @@ function sucesso_input(input, mensagem_elemento) {
 
 olho.addEventListener("click", () => {
     if (olho.src.includes("visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png")) {
-        olho.src = "SRC/imgs/visibility_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
+        olho.src = "./SRC/imgs/visibility_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
 
         user_senha.type = "text";
 
     } else {
-        olho.src = "SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
+        olho.src = "./SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
 
         user_senha.type = "password";
     };
@@ -293,12 +293,12 @@ olho.addEventListener("click", () => {
 
 olho_2.addEventListener("click", () => {
     if (olho_2.src.includes("visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png")) {
-        olho_2.src = "SRC/imgs/visibility_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
+        olho_2.src = "./SRC/imgs/visibility_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
 
         user_senha_2.type = "text";
 
     } else {
-        olho_2.src = "SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
+        olho_2.src = "./SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
 
         user_senha_2.type = "password";
     };
@@ -307,12 +307,12 @@ olho_2.addEventListener("click", () => {
 
 olho_login.addEventListener("click", () => {
     if (olho_login.src.includes("visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png")) {
-        olho_login.src = "SRC/imgs/visibility_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
+        olho_login.src = "./SRC/imgs/visibility_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
 
         user_senha_login.type = "text";
 
     } else {
-        olho_login.src = "SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
+        olho_login.src = "./SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png";
 
         user_senha_login.type = "password";
     };
