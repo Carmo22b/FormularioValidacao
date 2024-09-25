@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home-Formulário</title>
+</head>
+
+<body>
+
+    <h1>Formulário</h1><br>
+
+    <div class="conteiner_cadastrar_logar">
+        <div class="cadastrar">
+            <button id="btn_passar_cadastro">Cadastrar</button>
+
+        </div>
+        <div class="logar">
+            <button id="btn_passar_login">Login</button>
+        </div>
+    </div>
+    <div class="conteiner_pai">
+
+        <form id="form" class="form">
+
+            <p id="user_mensagem" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <div class="nome_sobrenome">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="user_nome" class="input_nome" type="text" placeholder="Digite seu primeiro nome"
+                        name="nome">
+                </div>
+
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input id="user_sobrenome" class="input_sobrenome" type="text" placeholder="Digite seu segundo nome"
+                        name="sobrenome">
+                </div>
+            </div>
+
+            <label for="email">E-mail</label>
+            <input id="user_email" type="email" placeholder="Digite seu E-mail" name="email">
+
+
+            <label for="senha">Senha</label>
+            <div class="senha-container">
+                <input id="user_senha" class="cria_senha" type="password" placeholder="Crie uma senha" name="senha">
+
+                <img id="olho" class="olho" src="/SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="olho">
+            </div>
+
+            <p id="user_mensagem_5" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <label for="senha">Confirmar senha</label>
+            <div class="senha-container">
+                <input id="user_senha_2" class="confirma_senha" type="password" placeholder="Confirme sua senha"
+                    name="senha">
+
+                <img id="olho_2" class="olho" src="/SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="olho">
+
+            </div>
+
+            <p id="user_mensagem_4" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <h2>O que você sabe?</h2>
+
+            <div id="interesses" class="interesses">
+                <label>HTML
+                    <input type="checkbox" name="interesses" value="HTML">
+                </label>
+
+                <label>CSS
+                    <input type="checkbox" name="interesses" value="CSS">
+                </label>
+
+                <label>JavaScript
+                    <input type="checkbox" name="interesses" value="JavaScript">
+                </label>
+
+                <label>TypeScript
+                    <input type="checkbox" name="interesses" value="TypeScript">
+                </label>
+
+                <label>Outros
+                    <input type="checkbox" name="interesses" value="outros">
+                </label>
+
+            </div>
+
+            <p id="user_mensagem_2" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <h2>Qual o seu sexo?</h2>
+
+            <div id="genero">
+
+                <label>Masculino:
+                    <input type="radio" name="genero" value="Homem">
+                </label>
+
+                <label>Feminino:
+                    <input class="input_mulher" type="radio" name="genero" value="Mulher">
+                </label>
+            
+            </div>
+            
+            <p id="user_mensagem_3" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <input id="user_submit" class="btn_cadastrar" type="submit" value="Cadastrar">
+
+        </form>
+
+
+
+        <form id="form_login" class="form_login">
+
+            <p id="user_mensagem_login_1" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <div class="nome_sobrenome">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="user_nome_login" class="input_nome" type="text" placeholder="Digite seu primeiro nome"
+                        name="nome">
+                </div>
+
+                <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input id="user_sobrenome_login" class="input_sobrenome" type="text" placeholder="Digite seu segundo nome"
+                        name="sobrenome">
+                </div>
+            </div>
+
+            <label for="email">E-mail</label>
+            <input id="user_email_login" type="email" placeholder="Digite seu E-mail" name="email">
+
+            <p id="user_mensagem_login_2" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <label for="senha">Senha</label>
+            <div class="senha-container">
+
+                <input id="user_senha_login" class="confirma_senha" type="password" placeholder="Adicione sua senha"
+                    name="senha">
+
+                <img id="olho_login" class="olho" src="/SRC/imgs/visibility_off_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="olho">
+
+            </div>
+
+            <p id="user_mensagem_login_3" class="mensagem">MENSAGEM DE ERRO!*</p>
+
+            <a href="#">Esqueci minha senha</a>
+
+            <input id="user_submit_login" class="btn_cadastrar" type="submit" value="Logar">
+
+        </form>
+
+    </div>
+
+
+    <script src="./js/control.js"></script>
+</body>
+
+</html>

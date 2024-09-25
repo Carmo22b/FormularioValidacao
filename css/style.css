@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/SRC/imgs/a-cinematic-shot-of-a-dark-room-with-a-high-tech-s-h7WqNn6YTIyimNUzcki0DA-OxwKibA6SOe6jWGDwJw9fQ.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+    font-size: 50px;
+}
+
+.conteiner_cadastrar_logar {
+    display: flex;
+}
+
+.conteiner_cadastrar_logar .cadastrar {
+    background: rgb(255, 255, 255);
+    width: 170px;
+    height: 55px;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 9px 9px 0px 0px black;
+}
+
+.conteiner_cadastrar_logar .logar {
+    background: rgb(94, 94, 94);
+    width: 170px;
+    height: 55px;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 9px 9px 0px 0px black;
+}
+
+.conteiner_cadastrar_logar button {
+    background: transparent;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.conteiner_pai {
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 620px;
+    box-shadow: 9px 9px 0px 0px black;
+    position: relative;
+    overflow: hidden;
+}
+
+label {
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+
+.interesses {
+    display: flex;
+    justify-content: space-around;
+}
+
+#genero{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 95px;
+}
+
+.nome_sobrenome {
+    display: flex;
+    gap: 10px;
+}
+
+.nome_sobrenome div {
+    display: flex;
+    flex-direction: column;
+    width: 48.8%;
+}
+
+input {
+    padding: 8px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    outline: none;
+
+}
+
+input[type="radio"] {
+    cursor: pointer;
+
+}
+
+.input_mulher {
+    margin-left: 6px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.btn_cadastrar {
+    background-color: chartreuse;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn_cadastrar:hover {
+    background-color: rgb(117, 206, 29);
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+    transform: translateX(100%);
+    position: absolute;
+    width: 90%;
+    visibility: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+form .senha-container {
+    display: flex;
+    position: relative;
+}
+
+form .olho {
+    position: absolute;
+    right: 0px;
+    top: 1.4px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+form .cria_senha {
+    width: 100%;
+}
+
+form .confirma_senha {
+    width: 100%;
+}
+
+.form_login .senha-container {
+    display: flex;
+    position: relative;
+}
+
+.form_login .olho {
+    position: absolute;
+    right: 0px;
+    top: 1.4px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form_login .confirma_senha {
+    width: 100%;
+}
+
+p{
+    visibility: hidden;
+    text-align: center;
+}
+
+
