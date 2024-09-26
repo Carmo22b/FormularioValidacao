@@ -303,7 +303,7 @@ p{
         display: flex;
         flex-direction: column;
         gap: 4px;
-        width: 91px;
+        width: 110px;
     }
     
     .nome_sobrenome {

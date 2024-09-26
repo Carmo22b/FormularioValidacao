@@ -240,8 +240,8 @@ function input_user_radio() {
     const radio_marcado = Array.from(user_radio).some(radio => radio.checked);
 
     if (!radio_marcado) {
-        div_radio.style.border = "solid 1px red";
-        div_radio.style.borderRadius = "10px";
+        div_radio.style.borderTop = "solid 1px red";
+        div_radio.style.borderBottom = "solid 1px red";
         div_radio.style.padding = "4px";
         div_radio.style.marginBottom = "0px";
 
@@ -251,7 +251,6 @@ function input_user_radio() {
         user_mensagem_3.innerHTML = mensagem_2;
     } else {
         div_radio.style.border = "none";
-        div_radio.style.borderRadius = "0px";
         div_radio.style.padding = "0px";
         div_radio.style.marginBottom = "18px";
 
