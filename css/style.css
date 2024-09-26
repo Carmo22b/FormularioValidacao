@@ -303,7 +303,7 @@ p{
         display: flex;
         flex-direction: column;
         gap: 4px;
-        width: 83px;
+        width: 91px;
     }
     
     .nome_sobrenome {
@@ -314,7 +314,7 @@ p{
     .nome_sobrenome div {
         display: flex;
         flex-direction: column;
-        width: 48.4%;
+        width: 48.0%;
     }
     
     input {
